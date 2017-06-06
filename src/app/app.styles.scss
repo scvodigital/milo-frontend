@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+
+// Base variables ==============================================================
+
+$base-font-family: "Open Sans", "Helvetica", sans-serif;
+
+
+// Layout ======================================================================
+
+header .container-fluid,
+main .container-fluid,
+footer .container-fluid {
+    max-width: 1280px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+// General =====================================================================
+
+html {
+    overflow-y: scroll;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $base-font-family;
+    font-size: 1rem;
+    min-height: 100%;
+    background-color: #263238;
+}
+header,
+main {
+    background-color: #fafafa;
+}
+
+a {
+    color: #23876f;
+}
+::selection {
+    color: white;
+    background: #23876f;
+}
+::-moz-selection {
+    color: white;
+    background: #23876f;
+}
+
+// nav {
+//     background-color: #263238;
+//     li {
+//         display: inline-block;
+//         a,
+//         a:hover {
+//             color: white;
+//         }
+//     }
+// }
+header {
+    padding: 50px 0;
+    color: #ffffff;
+    margin-bottom: 0;
+    background: #23876f;
+    background: -moz-linear-gradient(top, #23876f 0%, #3eaa8d 60%);
+    background: -webkit-linear-gradient(top, #23876f 0%,#3eaa8d 60%);
+    background: linear-gradient(to bottom, #23876f 0%,#3eaa8d 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23876f', endColorstr='#3eaa8d',GradientType=0 );
+    border-bottom: 5px solid #99cabd;
+}
+
+main {
+    padding: 20px 0;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2rem + 2px);
+    line-height: 2rem;
+}
+
+// Footer ======================================================================
+
+footer {
+    padding-top: 3rem;
+    small {
+        font-size: 90%;
+    }
+    .row {
+        margin-bottom: 0;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            list-style-type: none;
+            .fa {
+                margin-right: 0.5rem;
+            }
+        }
+    }
+    ul.right li {
+        text-align: right;
+    }
+}
+footer,
+footer a,
+footer a:hover,
+footer a:focus {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-skip: ink;
+}

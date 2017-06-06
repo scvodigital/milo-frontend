@@ -1,0 +1,55 @@
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <a [routerLink]="['/']">
+                    <img src="/app/assets/images/logos/get-involved.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-9 col-lg-10">
+                <a class="brand-logo" [routerLink]="['/']">
+                    <img src="/app/assets/images/logos/scvo-logo.png">
+                </a>
+                <p>
+                    Get Involved is powered by a collaboration of infrastructure organisations across Scotland. It is only with the dedication of staff and volunteers from SCVO and the 32 local Third Sector Interfaces that the quality information here is available.
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+                <ul class="right">
+                    <li>
+                        <a [routerLink]="['/about']">
+                            <i class="fa fa-question-circle" aria-hidden="true"></i>About
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/contact']">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p><small>© 2017. The Scottish Council for Voluntary Organisations (SCVO) is a Scottish Charitable Incorporated Organisation. Registration number <a href="http://www.oscr.org.uk/charities/search-scottish-charity-register/charity-details?number=SC003558">SC003558</a>.</small></p>
+            </div>
+        </div>
+    </div>
+</footer>
