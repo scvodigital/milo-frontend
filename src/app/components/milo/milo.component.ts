@@ -11,7 +11,7 @@ export class MiloComponent {
         var s = document.createElement("script");
         s.type = "text/javascript";
         s.src = "https://milo.scvo.org.uk/organisations.bundle.js";
-        s.setAttribute("data-hide-map", "true");
+        s.setAttribute("data-hide-map", "false");
         this.elementRef.nativeElement.appendChild(s);
     }
 }
