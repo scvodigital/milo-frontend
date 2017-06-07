@@ -20,5 +20,5 @@ script:
 after_script:
   - firebase deploy --token ${FIREBASE_TOKEN}
 
- notifications:
-    slack: scvodigital:iS6dmFQV9DBdzjIMGMkKVvED
+notifications:
+  slack: scvodigital:iS6dmFQV9DBdzjIMGMkKVvED
