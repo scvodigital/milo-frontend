@@ -72,6 +72,14 @@ header {
 
 main {
     padding: 20px 0;
+    .milo-widget {
+        p {
+            margin: 0;
+        }
+        .panel-collapse .panel-body {
+            padding-top: 0;
+        }
+    }
 }
 
 select.form-control:not([size]):not([multiple]) {
@@ -88,6 +96,10 @@ footer {
     }
     .row {
         margin-bottom: 0;
+    }
+    .brand-logo {
+        margin-bottom: 0.5rem;
+        display: block;
     }
     ul {
         padding: 0;
@@ -108,9 +120,35 @@ footer a,
 footer a:hover,
 footer a:focus {
     color: white;
-    text-decoration: none;
 }
+footer a,
 footer a:hover {
     text-decoration: underline;
     text-decoration-skip: ink;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    header {
+        padding: 20px 0;
+    }
+    footer {
+        ul.right {
+            margin-bottom: 1rem;
+            li {
+                text-align: left;
+            }
+        }
+    }
 }
