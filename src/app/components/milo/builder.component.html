@@ -1,0 +1,12 @@
+<form class="form-horizontal">
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <label class="type" *ngFor="let type of types">
+                <input type="radio" name="type" [(ngModel)]="selectedType" [value]="type.value">
+                {{type.display}}
+            </label>
+        </div>
+    </div>
+</form>
+
+<preview [type]="selectedType" [filter]="filter" [hideMap]="hideMap" [hideTitle]="hideTitle"></preview>
