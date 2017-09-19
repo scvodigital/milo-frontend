@@ -11,8 +11,8 @@ import { Angulartics2Module, Angulartics2GoogleAnalytics } from 'angulartics2';
 
 /* Components */
 import { AppComponent } from './app.component';
-import { BuilderComponent } from './components/milo/builder.component';
-import { PreviewComponent } from './components/milo/preview.component';
+import { OpportunitiesComponent } from './components/milo/opportunities.component';
+import { OrganisationsComponent } from './components/milo/organisations.component';
 import { AboutComponent } from './components/static/about.component';
 import { ContactComponent } from './components/static/contact.component';
 
@@ -29,8 +29,8 @@ import { firebaseConfig } from './configuration/firebase';
     ],
     declarations: [
         AppComponent,
-        BuilderComponent,
-        PreviewComponent,
+        OpportunitiesComponent,
+        OrganisationsComponent,
         AboutComponent,
         ContactComponent
     ],
