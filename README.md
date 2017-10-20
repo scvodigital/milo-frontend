@@ -1,6 +1,6 @@
-# Get Involved (public frontend) [![Build Status](https://travis-ci.org/scvodigital/milo-frontend.svg?branch=master)](https://travis-ci.org/scvodigital/milo-frontend)
+# Get Involved (public frontend) [![Build Status](https://travis-ci.org/scvodigital/milo-frontend.svg?branch=release)](https://travis-ci.org/scvodigital/milo-frontend)
 
-[![Dependency Status](https://david-dm.org/scvodigital/milo-frontend/master.svg)](https://david-dm.org/scvodigital/milo-frontend/master) [![devDependency Status](https://david-dm.org/scvodigital/milo-frontend/master/dev-status.svg)](https://david-dm.org/scvodigital/milo-frontend/master?type=dev)
+[![Dependency Status](https://david-dm.org/scvodigital/milo-frontend/release.svg)](https://david-dm.org/scvodigital/milo-frontend/release) [![devDependency Status](https://david-dm.org/scvodigital/milo-frontend/release/dev-status.svg)](https://david-dm.org/scvodigital/milo-frontend/release?type=dev)
 
 This is the repository for the Get Involved website, it contains the codebase for the public website. Deployment instructions are detailed below.
 
