@@ -62,12 +62,7 @@ header {
     padding: 50px 0;
     color: #ffffff;
     margin-bottom: 0;
-    background: #3eaa8d;
-    background: -moz-linear-gradient(top, #3eaa8d 0%, #169383 100%);
-    background: -webkit-linear-gradient(top, #3eaa8d 0%,#169383 100%);
-    background: linear-gradient(to bottom, #3eaa8d 0%,#169383 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3eaa8d', endColorstr='#169383',GradientType=0 );
-    // border-bottom: 5px solid #99cabd;
+    background: #c2185b;
 }
 
 main {
@@ -102,7 +97,7 @@ label.type {
     font-weight: 600 !important;
     border-radius: 0 !important;
     border: none !important;
-    background: #169383 !important;
+    background: #c2185b !important;
     outline: none !important;
     box-shadow: none !important;
     cursor: pointer;
@@ -112,21 +107,13 @@ label.type:last-child {
 }
 .btn.btn-primary:hover,
 label.type:hover {
-    background: #3eaa8d !important;
-    background: -moz-linear-gradient(top, #3eaa8d 0%, #169383 100%) !important;
-    background: -webkit-linear-gradient(top, #3eaa8d 0%,#169383 100%) !important;
-    background: linear-gradient(to bottom, #3eaa8d 0%,#169383 100%) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3eaa8d', endColorstr='#169383',GradientType=0 ) !important;
+    background: #c2185b !important;
 }
 
 // Footer ======================================================================
 
 footer {
-    background: rgb(55,71,79);
-    background: -moz-linear-gradient(top, rgba(55,71,79,1) 0%, rgba(38,50,56,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(55,71,79,1) 0%,rgba(38,50,56,1) 100%);
-    background: linear-gradient(to bottom, rgba(55,71,79,1) 0%,rgba(38,50,56,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37474f', endColorstr='#263238',GradientType=0 );
+    background: #263238;
     padding-top: 3rem;
     small {
         font-size: 90%;
